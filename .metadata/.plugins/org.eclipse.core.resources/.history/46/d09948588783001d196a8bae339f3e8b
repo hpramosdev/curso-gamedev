@@ -1,0 +1,9 @@
+package zeldaminiclone;
+
+public class Bullet extends Rectangle {
+
+	public Bullet(int x, int y) {
+		
+	}
+	
+}

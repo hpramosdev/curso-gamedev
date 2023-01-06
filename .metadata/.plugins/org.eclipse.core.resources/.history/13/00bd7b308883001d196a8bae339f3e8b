@@ -1,0 +1,18 @@
+package zeldaminiclone;
+
+import java.awt.Rectangle;
+
+public class Bullet extends Rectangle {
+
+	public int dir = 1;
+	public int speed = 8;
+	
+	public Bullet(int x, int y) {
+		super(x,y,20,20);
+		this.dir = dir;
+	}
+	
+	public void tick() {
+		x += speed*dir;
+	}
+}
